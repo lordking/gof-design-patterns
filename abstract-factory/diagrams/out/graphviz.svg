@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="302pt" height="286pt" viewBox="0.00 0.00 301.85 285.77">
+<g id="graph0" class="graph" transform="translate(4,281.7699890136719) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-281.77 297.85,-281.77 297.85,4 -4,4" style=""/>
+<!-- Client -->
+<g id="node1" class="node" pointer-events="visible" data-name="Client">
+
+<ellipse fill="darkslategray" stroke="black" stroke-width="0" cx="221.98" cy="-119.58" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="203.99" y="-129.28" font-family="Times,serif" font-size="9.00" style="">Client</text>
+</g>
+<!-- Factory -->
+<g id="node2" class="node" pointer-events="visible" data-name="Factory">
+
+<ellipse fill="#b0e2ff" stroke="black" stroke-width="0" cx="286.85" cy="-150.82" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="286.85" y="-148.12" font-family="Times,serif" font-size="9.00" style="">I</text>
+<text text-anchor="middle" x="266.11" y="-160.52" font-family="Times,serif" font-size="9.00" style="">Factory</text>
+</g>
+<!-- Client&#45;&gt;Factory -->
+<g id="edge1" class="edge" data-name="Client-&gt;Factory">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M227.97,-122.47C237.87,-127.23 257.92,-136.89 271.86,-143.6" style=""/>
+<polygon fill="slategray" stroke="slategray" points="280.69,-147.86 269.73,-147.57 276.19,-145.69 271.68,-143.52 271.68,-143.52 271.68,-143.52 276.19,-145.69 273.64,-139.46 280.69,-147.86 280.69,-147.86" style=""/>
+</g>
+<!-- ProductA -->
+<g id="node3" class="node" pointer-events="visible" data-name="ProductA">
+
+<ellipse fill="#b0e2ff" stroke="black" stroke-width="0" cx="205.96" cy="-189.78" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="205.96" y="-187.08" font-family="Times,serif" font-size="9.00" style="">I</text>
+<text text-anchor="middle" x="181.71" y="-199.48" font-family="Times,serif" font-size="9.00" style="">ProductA</text>
+</g>
+<!-- Client&#45;&gt;ProductA -->
+<g id="edge4" class="edge" data-name="Client-&gt;ProductA">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M220.45,-126.31C217.98,-137.14 213.05,-158.71 209.64,-173.69" style=""/>
+<polygon fill="slategray" stroke="slategray" points="207.47,-183.17 205.31,-172.42 208.58,-178.3 209.7,-173.42 209.7,-173.42 209.7,-173.42 208.58,-178.3 214.08,-174.42 207.47,-183.17 207.47,-183.17" style=""/>
+</g>
+<!-- ProductB -->
+<g id="node4" class="node" pointer-events="visible" data-name="ProductB">
+
+<ellipse fill="#b0e2ff" stroke="black" stroke-width="0" cx="157.12" cy="-88.34" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="157.12" y="-85.64" font-family="Times,serif" font-size="9.00" style="">I</text>
+<text text-anchor="middle" x="133.11" y="-98.04" font-family="Times,serif" font-size="9.00" style="">ProductB</text>
+</g>
+<!-- Client&#45;&gt;ProductB -->
+<g id="edge5" class="edge" data-name="Client-&gt;ProductB">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M216,-116.7C206.1,-111.94 186.05,-102.28 172.11,-95.57" style=""/>
+<polygon fill="slategray" stroke="slategray" points="163.28,-91.31 174.24,-91.6 167.78,-93.48 172.29,-95.65 172.29,-95.65 172.29,-95.65 167.78,-93.48 170.33,-99.7 163.28,-91.31 163.28,-91.31" style=""/>
+</g>
+<!-- ConcreteFactory1 -->
+<g id="node5" class="node" pointer-events="visible" data-name="ConcreteFactory1">
+
+<ellipse fill="#9ac0cd" stroke="black" stroke-width="0" cx="238.01" cy="-49.39" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="238.01" y="-46.69" font-family="Times,serif" font-size="9.00" style="">C</text>
+<text text-anchor="middle" x="198.77" y="-59.09" font-family="Times,serif" font-size="9.00" style="">ConcreteFactory1</text>
+</g>
+<!-- Client&#45;&gt;ConcreteFactory1 -->
+<g id="edge2" class="edge" data-name="Client-&gt;ConcreteFactory1">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M223.52,-112.85C225.99,-102.03 230.92,-80.45 234.33,-65.48" style=""/>
+<polygon fill="slategray" stroke="slategray" points="236.5,-56 238.66,-66.75 235.39,-60.87 234.27,-65.75 234.27,-65.75 234.27,-65.75 235.39,-60.87 229.89,-64.74 236.5,-56 236.5,-56" style=""/>
+</g>
+<!-- ConcreteFactory2 -->
+<g id="node6" class="node" pointer-events="visible" data-name="ConcreteFactory2">
+
+<ellipse fill="#9ac0cd" stroke="black" stroke-width="0" cx="286.85" cy="-88.34" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="286.85" y="-85.64" font-family="Times,serif" font-size="9.00" style="">C</text>
+<text text-anchor="middle" x="247.62" y="-98.04" font-family="Times,serif" font-size="9.00" style="">ConcreteFactory2</text>
+</g>
+<!-- Client&#45;&gt;ConcreteFactory2 -->
+<g id="edge3" class="edge" data-name="Client-&gt;ConcreteFactory2">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M227.97,-116.7C237.87,-111.94 257.92,-102.28 271.86,-95.57" style=""/>
+<polygon fill="slategray" stroke="slategray" points="280.69,-91.31 273.64,-99.7 276.19,-93.48 271.68,-95.65 271.68,-95.65 271.68,-95.65 276.19,-93.48 269.73,-91.6 280.69,-91.31 280.69,-91.31" style=""/>
+</g>
+<!-- ConcreteFactory1&#45;&gt;Factory -->
+<g id="edge6" class="edge" data-name="ConcreteFactory1-&gt;Factory">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M240.92,-55.43C248.43,-71.04 268.67,-113.07 279.61,-135.78" style=""/>
+<polygon fill="slategray" stroke="slategray" points="283.9,-144.69 275.51,-137.63 281.73,-140.18 279.56,-135.68 279.56,-135.68 279.56,-135.68 281.73,-140.18 283.61,-133.72 283.9,-144.69 283.9,-144.69" style=""/>
+</g>
+<!-- ConcreteFactory1&#45;&gt;ProductA -->
+<g id="edge7" class="edge" data-name="ConcreteFactory1-&gt;ProductA">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M236.46,-56.16C231.63,-77.33 216.71,-142.69 209.69,-173.45" style=""/>
+<polygon fill="slategray" stroke="slategray" points="207.49,-183.08 205.33,-172.32 208.61,-178.2 209.72,-173.33 209.72,-173.33 209.72,-173.33 208.61,-178.2 214.11,-174.33 207.49,-183.08 207.49,-183.08" style=""/>
+</g>
+<!-- ConcreteFactory1&#45;&gt;ProductB -->
+<g id="edge9" class="edge" data-name="ConcreteFactory1-&gt;ProductB">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M231.93,-52.32C219.34,-58.38 190.09,-72.46 172.12,-81.12" style=""/>
+<polygon fill="slategray" stroke="slategray" points="163.27,-85.38 170.32,-76.99 167.77,-83.21 172.28,-81.04 172.28,-81.04 172.28,-81.04 167.77,-83.21 174.23,-85.1 163.27,-85.38 163.27,-85.38" style=""/>
+</g>
+<!-- ConcreteProductA1 -->
+<g id="node7" class="node" pointer-events="visible" data-name="ConcreteProductA1">
+
+<ellipse fill="#9ac0cd" stroke="black" stroke-width="0" cx="254.03" cy="-259.97" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="254.03" y="-257.27" font-family="Times,serif" font-size="9.00" style="">C</text>
+<text text-anchor="middle" x="211.29" y="-269.67" font-family="Times,serif" font-size="9.00" style="">ConcreteProductA1</text>
+</g>
+<!-- ConcreteFactory1&#45;&gt;ConcreteProductA1 -->
+<g id="edge8" class="edge" data-name="ConcreteFactory1-&gt;ConcreteProductA1">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M238.5,-55.92C240.69,-84.6 249.45,-199.83 252.76,-243.28" style=""/>
+<polygon fill="slategray" stroke="slategray" points="253.5,-253.1 248.26,-243.47 253.13,-248.11 252.75,-243.12 252.75,-243.12 252.75,-243.12 253.13,-248.11 257.23,-242.78 253.5,-253.1 253.5,-253.1" style=""/>
+</g>
+<!-- ConcreteProductB1 -->
+<g id="node8" class="node" pointer-events="visible" data-name="ConcreteProductB1">
+
+<ellipse fill="#9ac0cd" stroke="black" stroke-width="0" cx="77.98" cy="-119.58" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="77.98" y="-116.88" font-family="Times,serif" font-size="9.00" style="">C</text>
+<text text-anchor="middle" x="35.49" y="-129.28" font-family="Times,serif" font-size="9.00" style="">ConcreteProductB1</text>
+</g>
+<!-- ConcreteFactory1&#45;&gt;ConcreteProductB1 -->
+<g id="edge10" class="edge" data-name="ConcreteFactory1-&gt;ConcreteProductB1">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M231.93,-52.05C208.96,-62.13 127.01,-98.08 92.98,-113.01" style=""/>
+<polygon fill="slategray" stroke="slategray" points="84.07,-116.92 91.42,-108.78 88.65,-114.91 93.23,-112.9 93.23,-112.9 93.23,-112.9 88.65,-114.91 95.03,-117.02 84.07,-116.92 84.07,-116.92" style=""/>
+</g>
+<!-- ConcreteFactory2&#45;&gt;Factory -->
+<g id="edge11" class="edge" data-name="ConcreteFactory2-&gt;Factory">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M286.85,-95.03C286.85,-104.28 286.85,-121.3 286.85,-134.11" style=""/>
+<polygon fill="slategray" stroke="slategray" points="286.85,-144 282.35,-134 286.85,-139 286.85,-134 286.85,-134 286.85,-134 286.85,-139 291.35,-134 286.85,-144 286.85,-144" style=""/>
+</g>
+<!-- ConcreteFactory2&#45;&gt;ProductA -->
+<g id="edge12" class="edge" data-name="ConcreteFactory2-&gt;ProductA">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M282.51,-93.8C270.05,-109.42 233.99,-154.64 216.17,-176.98" style=""/>
+<polygon fill="slategray" stroke="slategray" points="210.14,-184.54 212.86,-173.92 213.26,-180.63 216.37,-176.72 216.37,-176.72 216.37,-176.72 213.26,-180.63 219.89,-179.53 210.14,-184.54 210.14,-184.54" style=""/>
+</g>
+<!-- ConcreteFactory2&#45;&gt;ProductB -->
+<g id="edge14" class="edge" data-name="ConcreteFactory2-&gt;ProductB">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M279.88,-88.34C259.9,-88.34 202.06,-88.34 173.49,-88.34" style=""/>
+<polygon fill="slategray" stroke="slategray" points="163.81,-88.34 173.81,-83.84 168.81,-88.34 173.81,-88.34 173.81,-88.34 173.81,-88.34 168.81,-88.34 173.81,-92.84 163.81,-88.34 163.81,-88.34" style=""/>
+</g>
+<!-- ConcreteProductA2 -->
+<g id="node9" class="node" pointer-events="visible" data-name="ConcreteProductA2">
+
+<ellipse fill="#9ac0cd" stroke="black" stroke-width="0" cx="132.2" cy="-232.17" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="132.2" y="-229.47" font-family="Times,serif" font-size="9.00" style="">C</text>
+<text text-anchor="middle" x="89.46" y="-241.87" font-family="Times,serif" font-size="9.00" style="">ConcreteProductA2</text>
+</g>
+<!-- ConcreteFactory2&#45;&gt;ConcreteProductA2 -->
+<g id="edge13" class="edge" data-name="ConcreteFactory2-&gt;ConcreteProductA2">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M282.06,-92.81C261,-112.39 176.37,-191.09 144.46,-220.77" style=""/>
+<polygon fill="slategray" stroke="slategray" points="137.25,-227.47 141.51,-217.36 140.91,-224.07 144.58,-220.66 144.58,-220.66 144.58,-220.66 140.91,-224.07 147.64,-223.96 137.25,-227.47 137.25,-227.47" style=""/>
+</g>
+<!-- ConcreteProductB2 -->
+<g id="node10" class="node" pointer-events="visible" data-name="ConcreteProductB2">
+
+<ellipse fill="#9ac0cd" stroke="black" stroke-width="0" cx="132.2" cy="-7" rx="7" ry="7" style=""/>
+<text text-anchor="middle" x="132.2" y="-4.3" font-family="Times,serif" font-size="9.00" style="">C</text>
+<text text-anchor="middle" x="89.71" y="-16.7" font-family="Times,serif" font-size="9.00" style="">ConcreteProductB2</text>
+</g>
+<!-- ConcreteFactory2&#45;&gt;ConcreteProductB2 -->
+<g id="edge15" class="edge" data-name="ConcreteFactory2-&gt;ConcreteProductB2">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M280.98,-85.25C258.78,-73.58 179.59,-31.92 146.69,-14.62" style=""/>
+<polygon fill="slategray" stroke="slategray" points="138.08,-10.09 149.03,-10.77 142.51,-12.42 146.93,-14.75 146.93,-14.75 146.93,-14.75 142.51,-12.42 144.84,-18.73 138.08,-10.09 138.08,-10.09" style=""/>
+</g>
+<!-- ConcreteProductA1&#45;&gt;ProductA -->
+<g id="edge16" class="edge" data-name="ConcreteProductA1-&gt;ProductA">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M250.26,-254.47C242.78,-243.55 225.9,-218.89 215.27,-203.37" style=""/>
+<polygon fill="slategray" stroke="slategray" points="209.85,-195.46 219.21,-201.16 212.68,-199.58 215.5,-203.71 215.5,-203.71 215.5,-203.71 212.68,-199.58 211.79,-206.25 209.85,-195.46 209.85,-195.46" style=""/>
+</g>
+<!-- ConcreteProductB1&#45;&gt;ProductB -->
+<g id="edge17" class="edge" data-name="ConcreteProductB1-&gt;ProductB">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M84.46,-117.03C96.93,-112.11 124.56,-101.2 141.92,-94.34" style=""/>
+<polygon fill="slategray" stroke="slategray" points="150.77,-90.85 143.12,-98.71 146.12,-92.68 141.47,-94.52 141.47,-94.52 141.47,-94.52 146.12,-92.68 139.82,-90.34 150.77,-90.85 150.77,-90.85" style=""/>
+</g>
+<!-- ConcreteProductA2&#45;&gt;ProductA -->
+<g id="edge18" class="edge" data-name="ConcreteProductA2-&gt;ProductA">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M138.24,-228.7C149.86,-222.02 175.61,-207.22 191.8,-197.92" style=""/>
+<polygon fill="slategray" stroke="slategray" points="200.05,-193.18 193.62,-202.06 195.71,-195.67 191.38,-198.16 191.38,-198.16 191.38,-198.16 195.71,-195.67 189.14,-194.26 200.05,-193.18 200.05,-193.18" style=""/>
+</g>
+<!-- ConcreteProductB2&#45;&gt;ProductB -->
+<g id="edge19" class="edge" data-name="ConcreteProductB2-&gt;ProductB">
+
+<path fill="none" stroke="slategray" stroke-dasharray="5,2" d="M134.24,-13.66C138.15,-26.41 146.78,-54.61 152.26,-72.48" style=""/>
+<polygon fill="slategray" stroke="slategray" points="155.12,-81.82 147.89,-73.58 153.65,-77.04 152.19,-72.26 152.19,-72.26 152.19,-72.26 153.65,-77.04 156.49,-70.94 155.12,-81.82 155.12,-81.82" style=""/>
+</g>
+</g>
+</svg>

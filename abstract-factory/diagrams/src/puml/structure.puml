@@ -1,0 +1,37 @@
+@startuml structure
+interface Factory {
+  +createProductA(): ProductA
+  +createProductB(): ProductB
+}
+
+class ConcreteFactory1  {
+  +createProductA(): ProductA
+  +createProductB(): ProductB
+}
+
+class ConcreteFactory2  {
+  +createProductA(): ProductA
+  +createProductB(): ProductB
+}
+
+interface ProductA {}
+interface ProductB {}
+
+client -right-> Factory : 实例化、创建产品
+
+Factory <|.down. ConcreteFactory1 : 实现
+Factory <|.down. ConcreteFactory2 : 实现
+
+ConcreteFactory1 --> ProductA : 实例化
+ConcreteFactory1 --> ProductB : 实例化
+
+ProductA <|.. ConcreteProductA1 : 实现
+ProductB <|.. ConcreteProductB1 : 实现
+
+ConcreteFactory2 --> ProductA : 实例化
+ConcreteFactory2 --> ProductB : 实例化
+
+ProductA <|.. ConcreteProductA2 : 实现
+ProductB <|.. ConcreteProductB2 : 实现
+
+@enduml

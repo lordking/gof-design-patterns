@@ -1,0 +1,74 @@
+ digraph G {
+    layout="twopi"
+
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=darkslategray
+        , fontsize="9"
+        , label = ""
+        , penwidth =0
+    ] Client;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightskyblue1
+        , fontsize="9"
+        , label = "I"
+        , color=black
+    ] Builder;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightblue3
+        , fontsize="9"
+        , label = "C"
+    ];
+    
+    edge [color=slategray, style=dashed, arrowhead=vee]
+
+    Client [
+        xlabel ="Client"
+    ]
+
+    Builder [
+        xlabel ="Builder"
+    ]
+
+    ConcreteBuilder1 [
+        xlabel ="ConcreteBuilder1"
+    ]
+
+    ConcreteBuilder2 [
+        xlabel ="ConcreteBuilder2"
+    ]
+
+    Director [
+        xlabel ="Director"
+    ]
+
+    Product [
+        xlabel ="Product"
+    ]
+
+    
+
+    Client -> Builder
+    Client -> ConcreteBuilder1
+    Client -> ConcreteBuilder2
+    Client -> Director
+    Client -> Product
+    
+    Builder -> Product
+    
+    ConcreteBuilder1 -> Builder
+    ConcreteBuilder2 -> Builder
+    
+    Director -> Builder
+    Director -> Product
+}

@@ -1,0 +1,23 @@
+@startuml 时序图
+participant Client
+participant "ConcreteFactory1:Factory" as ConcreteFactory1
+participant "ConcreteProduct1:Product" as Product
+
+opt 选择具体工厂
+create ConcreteFactory1
+Client -> ConcreteFactory1: factory = new ConcreteFactory1()
+
+Client -> ConcreteFactory1: product = createProduct()
+activate ConcreteFactory1
+create Product
+ConcreteFactory1 -> Product: new ConcreteProduct1()
+ConcreteFactory1 --> Client: return product
+deactivate ConcreteFactory1
+
+Client -> Product: product.someOperation()
+
+
+
+end
+
+@enduml

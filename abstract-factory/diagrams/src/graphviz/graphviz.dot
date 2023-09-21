@@ -1,0 +1,98 @@
+ digraph G {
+    layout="twopi"
+
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=darkslategray
+        , fontsize="9"
+        , label = ""
+        , penwidth =0
+    ] Client;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightskyblue1
+        , fontsize="9"
+        , label = "I"
+        , color=black
+    ] Factory, ProductA, ProductB;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightblue3
+        , fontsize="9"
+        , label = "C"
+    ];
+    
+    edge [color=slategray, style=dashed, arrowhead=vee]
+
+    Client [
+        xlabel ="Client"
+    ]
+
+    Factory [
+        xlabel ="Factory"
+    ]
+
+    ConcreteFactory1 [
+        xlabel ="ConcreteFactory1"
+    ]
+
+    ConcreteFactory2 [
+        xlabel ="ConcreteFactory2"
+    ]
+
+    ProductA [
+        xlabel ="ProductA"
+    ]
+
+    ProductB [
+        xlabel ="ProductB"
+    ]
+
+    ConcreteProductA1 [
+        xlabel ="ConcreteProductA1"
+    ]
+
+    ConcreteProductB1 [
+        xlabel ="ConcreteProductB1"
+    ]
+
+    ConcreteProductA2 [
+        xlabel ="ConcreteProductA2"
+    ]
+
+    ConcreteProductB2 [
+        xlabel ="ConcreteProductB2"
+    ]
+
+    Client -> Factory
+    Client -> ConcreteFactory1
+    Client -> ConcreteFactory2
+    Client -> ProductA
+    Client -> ProductB
+
+    ConcreteFactory1 -> Factory
+    ConcreteFactory1 -> ProductA
+    ConcreteFactory1 -> ConcreteProductA1
+    ConcreteFactory1 -> ProductB
+    ConcreteFactory1 -> ConcreteProductB1
+
+    ConcreteFactory2 -> Factory
+    ConcreteFactory2 -> ProductA
+    ConcreteFactory2 -> ConcreteProductA2
+    ConcreteFactory2 -> ProductB
+    ConcreteFactory2 -> ConcreteProductB2
+
+    ConcreteProductA1 -> ProductA
+    ConcreteProductB1 -> ProductB
+
+    ConcreteProductA2 -> ProductA
+    ConcreteProductB2 -> ProductB
+}

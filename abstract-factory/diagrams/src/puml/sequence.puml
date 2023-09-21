@@ -1,0 +1,30 @@
+@startuml sequence
+participant Client
+participant "ConcreteFactory1:Factory" as ConcreteFactory1
+participant "ConcreteProductA1:ProductA" as ProductA
+participant "ConcreteProductB1:ProductB" as ProductB
+
+opt 选择具体工厂
+create ConcreteFactory1
+Client -> ConcreteFactory1: factory = new ConcreteFactory1()
+
+Client -> ConcreteFactory1: productA = createProductA()
+activate ConcreteFactory1
+create ProductA
+ConcreteFactory1 -> ProductA: new ConcreteProductA1()
+ConcreteFactory1 --> Client: return ProductA1
+deactivate ConcreteFactory1
+
+Client -> ProductA: productA.someOperation()
+
+Client -> ConcreteFactory1: productB = createProductB()
+activate ConcreteFactory1
+create ProductB
+ConcreteFactory1 -> ProductB: new ConcreteProductB1()
+ConcreteFactory1 --> Client: return ProductB1
+deactivate ConcreteFactory1
+
+Client -> ProductB: productB.someOperation()
+end
+
+@enduml

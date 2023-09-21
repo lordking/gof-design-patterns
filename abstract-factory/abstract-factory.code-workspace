@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "./diagrams"
+		},
+		{
+			"path": "./source-codes/java"
+		},
+		{
+			"path": "./source-codes/python"
+		}
+	],
+	"settings": {
+		"plantuml.exportOutDir": "out",
+		"python.analysis.typeCheckingMode": "strict"
+	}
+}

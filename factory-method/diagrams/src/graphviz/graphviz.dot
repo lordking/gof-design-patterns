@@ -1,0 +1,76 @@
+ digraph G {
+    layout="twopi"
+
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=darkslategray
+        , fontsize="9"
+        , label = ""
+        , penwidth =0
+    ] Client;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightskyblue1
+        , fontsize="9"
+        , label = "I"
+        , color=black
+    ] Factory, Product;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightblue3
+        , fontsize="9"
+        , label = "C"
+    ];
+    
+    edge [color=slategray, style=dashed, arrowhead=vee]
+
+    Client [
+        xlabel ="Client"
+    ]
+
+    Factory [
+        xlabel ="Factory"
+    ]
+
+    ConcreteFactory1 [
+        xlabel ="ConcreteFactory1"
+    ]
+
+    ConcreteFactory2 [
+        xlabel ="ConcreteFactory2"
+    ]
+
+    Product [
+        xlabel ="Product"
+    ]
+
+    ConcreteProduct1 [
+        xlabel ="ConcreteProduct1"
+    ]
+
+    ConcreteProduct2 [
+        xlabel ="ConcreteProduct2"
+    ]
+
+    Client -> Factory
+    Client -> ConcreteFactory1
+    Client -> ConcreteFactory2
+    Client -> Product
+
+    ConcreteFactory1 -> Factory
+    ConcreteFactory2 -> Factory
+
+    ConcreteFactory1 -> ConcreteProduct1
+    ConcreteFactory2 -> ConcreteProduct2
+
+    ConcreteProduct1 -> Product
+    ConcreteProduct2 -> Product
+}

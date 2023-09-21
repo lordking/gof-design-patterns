@@ -1,0 +1,31 @@
+@startuml sequence
+
+participant Client
+participant Director
+participant "ConcreteBuilder1:Builder" as ConcreteBuilder1
+participant Product
+
+opt 选择构造器
+create ConcreteBuilder1
+Client -> ConcreteBuilder1 : builder = new ConcreteBuilder1()
+end
+
+create Director
+Client -> Director : director = new Director(builder)
+
+Client -> Director : director.construct()
+activate Director
+Director -> ConcreteBuilder1 : builder.buildPartA()
+Director -> ConcreteBuilder1 : builder.buildPartB()
+Director -> ConcreteBuilder1 : builder.buildPartC()
+Director -> ConcreteBuilder1 : builder.build()
+create Product
+activate ConcreteBuilder1
+ConcreteBuilder1 -> Product : product = new Product()
+Product --> ConcreteBuilder1 : return product
+ConcreteBuilder1 --> Director : return product
+deactivate ConcreteBuilder1
+Director --> Client : return product
+deactivate Director
+
+@enduml

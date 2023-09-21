@@ -1,0 +1,29 @@
+## Mac ## 
+.DS_Store
+
+## IDEA ##
+.idea/
+
+## Maven ##
+target/
+
+## Yew ##
+dist/
+
+## Rust ##
+Cargo.lock
+debug/
+
+## draw.io ##
+**.bkp
+**.btmp
+
+## Jupyter Notebook ##
+.ipynb_checkpoints/
+
+## Python ##
+__pycache__/
+
+## Custom ##
+temp/
+marchine-learning/diffusion-models/data/
