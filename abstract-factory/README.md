@@ -1,9 +1,3 @@
----
-title: 抽象工厂
-status: 待修订
-typora-root-url: ./
----
-
 # 抽象工厂
 
 ## 笔记索引
