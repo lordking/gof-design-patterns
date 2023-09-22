@@ -1,4 +1,4 @@
-@startuml 结构图
+@startuml structure
 interface Factory {
   +createProduct(): Product
 }
@@ -13,20 +13,15 @@ class ConcreteFactory2  {
 
 interface Product {}
 
-client -right-> Factory : 实例化、创建产品
+client -right-> Factory : 使用
 
 Factory <|.down. ConcreteFactory1 : 实现
 Factory <|.down. ConcreteFactory2 : 实现
 
-
 ConcreteFactory1 --> Product : 实例化
-ConcreteFactory1 --> ConcreteProduct1 : 实例化
-Product <|.. ConcreteProduct1 : 实现
-
 ConcreteFactory2 --> Product : 实例化
-ConcreteFactory2 --> ConcreteProduct2 : 实例化
+
+Product <|.. ConcreteProduct1 : 实现
 Product <|.. ConcreteProduct2 : 实现
-
-
 
 @enduml

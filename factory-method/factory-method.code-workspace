@@ -1,13 +1,24 @@
 {
 	"folders": [
 		{
-			"path": "./"
+			"path": "./diagrams"
 		},
+		{
+			"path": "./source-codes/java"
+		},
+		{
+			"path": "./source-codes/python"
+		},
+		{
+			"path": "./source-codes/rust"
+		},
+		{
+			"path": "./source-codes/cpp"
+		}
 	],
 	"settings": {
-		"plantuml.exportOutDir": "diagrams/out",
-		"java.compile.nullAnalysis.mode": "automatic",
-		"java.configuration.updateBuildConfiguration": "interactive",
-		"java.debug.settings.onBuildFailureProceed": true
+		"plantuml.exportOutDir": "out",
+		"plantuml.exportSubFolder": false,
+		"plantuml.exportIncludeFolderHeirarchy": false
 	}
 }

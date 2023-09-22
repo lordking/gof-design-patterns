@@ -17,6 +17,8 @@
 		}
 	],
 	"settings": {
-		"plantuml.exportOutDir": "out"
+		"plantuml.exportOutDir": "out",
+		"plantuml.exportSubFolder": false,
+		"plantuml.exportIncludeFolderHeirarchy": false
 	}
 }

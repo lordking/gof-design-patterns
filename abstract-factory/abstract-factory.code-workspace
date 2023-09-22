@@ -12,6 +12,7 @@
 	],
 	"settings": {
 		"plantuml.exportOutDir": "out",
-		"python.analysis.typeCheckingMode": "strict"
+		"plantuml.exportSubFolder": false,
+		"plantuml.exportIncludeFolderHeirarchy": false
 	}
 }

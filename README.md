@@ -11,22 +11,22 @@
 
 Java
 
-- Java 8
-- Maven 3.6.3
+- JDK 1.8.0_345
+- Maven 3.8.6
 
 Python
 
 - Python 3.11.4
-- Conda 4.10.3
+- Conda 23.5.2
 
 Rust开发环境
 
-- Rust 1.55.0
-- Cargo 1.55.0
+- Rust 1.64.0
+- cargo 1.64.0c
 
-C++开发环境
+C++开发环境（除Windows外，其他都是操作系统自带）
 
-- C++ 17
+- 苹果操作系统自带：g++(14.0.3)
 
 ### 1.2 开发工具
 
@@ -50,5 +50,7 @@ Visual Studio Code插件
 
 | 设计模式 | Notion笔记   | 源代码   |
 | -------- | ------ | ------ |
-| 抽象工厂 | [📒点击链接](https://lordking.notion.site/df43fb8290934bb38ee3a0ab737ebc9c) | [🔗点击链接](./abstract-factory/README.md) |
+| 抽象工厂 | [📒点击链接](https://lordking.notion.site/df43fb8290934bb38ee3a0ab737ebc9c?pvs=4) | [🔗点击链接](./abstract-factory/README.md) |
+| 生成器   | [📒点击链接](https://lordking.notion.site/db4b53739e974e9aa02d8aa8b276cd60?pvs=4) | [🔗点击链接](./builder/README.md) |
+| 工厂方法 | [📒点击链接](https://lordking.notion.site/a12f6fd7a5c8463992280985dccb0dcf?pvs=4) | [🔗点击链接](./factory-method/README.md) |
 

@@ -7,6 +7,6 @@
 ### 源代码索引
 
 - [Java](./source-codes/java/)
-- [Python(待补充)](./source-codes/python/)
+- [Python](./source-codes/python/)
 - [Rust(待补充)](./source-codes/rust/)
 - [C++(待补充)](./source-codes/cpp/)

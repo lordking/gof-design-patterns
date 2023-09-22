@@ -1,4 +1,4 @@
-@startuml 时序图
+@startuml sequence
 participant Client
 participant "ConcreteFactory1:Factory" as ConcreteFactory1
 participant "ConcreteProduct1:Product" as Product
@@ -15,7 +15,6 @@ ConcreteFactory1 --> Client: return product
 deactivate ConcreteFactory1
 
 Client -> Product: product.someOperation()
-
 
 
 end
