@@ -54,3 +54,8 @@ Visual Studio Code插件
 | 生成器   | [📒点击链接](https://lordking.notion.site/db4b53739e974e9aa02d8aa8b276cd60?pvs=4) | [🔗点击链接](./builder/README.md) |
 | 工厂方法 | [📒点击链接](https://lordking.notion.site/a12f6fd7a5c8463992280985dccb0dcf?pvs=4) | [🔗点击链接](./factory-method/README.md) |
 
+## 3 参考资料
+
+- [《设计模式：可复用面向对象软件的基础》](https://book.douban.com/subject/1052241/)
+- [《Head First设计模式》](https://book.douban.com/subject/2243615/)
+- [《领域驱动设计：软件核心复杂性应对之道》](https://book.douban.com/subject/5344973/)
