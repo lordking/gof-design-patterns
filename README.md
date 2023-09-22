@@ -59,3 +59,4 @@ Visual Studio Code插件
 - [《设计模式：可复用面向对象软件的基础》](https://book.douban.com/subject/1052241/)
 - [《Head First设计模式》](https://book.douban.com/subject/2243615/)
 - [《领域驱动设计：软件核心复杂性应对之道》](https://book.douban.com/subject/5344973/)
+- [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
