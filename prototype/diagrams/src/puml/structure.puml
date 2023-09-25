@@ -1,0 +1,21 @@
+@startuml structure
+' 作者写一本书
+
+class Client {
+}
+
+interface Prototype {
+    + clone()
+}
+
+Class ConcretePrototype1 {
+}
+
+Class ConcretePrototype2 {
+}
+
+Client -right-> Prototype
+ConcretePrototype1 .up.|> Prototype
+ConcretePrototype2 .up.|> Prototype
+
+@enduml

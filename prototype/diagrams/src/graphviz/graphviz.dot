@@ -1,0 +1,57 @@
+ digraph G {
+    layout="twopi"
+
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=darkslategray
+        , fontsize="9"
+        , label = ""
+        , penwidth =0
+    ] Client;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightskyblue1
+        , fontsize="9"
+        , label = "I"
+        , color=black
+    ] Prototype;
+    
+    node [shape=circle
+        , fixedsize=true
+        , width=0.2
+        , style=filled
+        , fillcolor=lightblue3
+        , fontsize="9"
+        , label = "C"
+    ];
+    
+    edge [color=slategray, style=dashed, arrowhead=vee]
+
+    Client [
+        xlabel ="Client"
+    ]
+
+    Prototype [
+        xlabel ="Prototype"
+    ]
+
+    ConcretePrototype1 [
+        xlabel ="ConcretePrototype1"
+    ]
+
+    ConcretePrototype2 [
+        xlabel ="ConcretePrototype2"
+    ]
+    
+    Client -> Prototype
+    Client -> ConcretePrototype1
+    ConcretePrototype1 -> Prototype [arrowhead=onormal]
+
+    Client -> ConcretePrototype2
+    ConcretePrototype2 -> Prototype [arrowhead=onormal]
+}
