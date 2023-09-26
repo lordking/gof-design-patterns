@@ -1,4 +1,4 @@
-package com.weekstone.learn.designpattern.prototype.standard;
+package com.weekstone.learn.designpattern.prototype;
 
 import lombok.Data;
 

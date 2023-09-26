@@ -1,9 +1,11 @@
 @startuml sequence
-' 作者写一本书
+' 原型
 
-Actor author
-Participant Book
+participant Client
+participant ProtoType
 
-author -> Book: write()
+create ProtoType
+Client --> ProtoType : new ConcreteProtoType
+Client --> ProtoType : clone()
 
 @enduml
