@@ -1,0 +1,9 @@
+@startuml sequence
+' 作者写一本书
+
+Actor author
+Participant Book
+
+author -> Book: write()
+
+@enduml
