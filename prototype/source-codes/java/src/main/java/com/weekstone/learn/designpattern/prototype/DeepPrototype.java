@@ -1,20 +1,18 @@
-package com.weekstone.learn.designpattern.prototype.deep;
+package com.weekstone.learn.designpattern.prototype;
 
 import lombok.Data;
 
 import java.io.*;
 
-import com.weekstone.learn.designpattern.prototype.Address;
-
 @Data
-public class ConcretePrototype implements Cloneable, Serializable {
+public class DeepPrototype implements Cloneable, Serializable {
 
     private static final long serialVersionUID = 1L;
 
     private String field1;
     private Address address;
 
-    public ConcretePrototype(String field1, Address address) {
+    public DeepPrototype(String field1, Address address) {
         this.field1 = field1;
         this.address = address;
     }
@@ -29,7 +27,7 @@ public class ConcretePrototype implements Cloneable, Serializable {
      * @return ConcretePrototype
      */
     @Override
-    public ConcretePrototype clone() throws CloneNotSupportedException {
+    public DeepPrototype clone() throws CloneNotSupportedException {
         // 序列化
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         try {
@@ -44,7 +42,7 @@ public class ConcretePrototype implements Cloneable, Serializable {
         ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
         try {
             ObjectInputStream ois = new ObjectInputStream(bis);
-            return (ConcretePrototype) ois.readObject();
+            return (DeepPrototype) ois.readObject();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

@@ -19,6 +19,7 @@
 	"settings": {
 		"plantuml.exportOutDir": "out",
 		"plantuml.exportSubFolder": false,
-		"plantuml.exportIncludeFolderHeirarchy": false
+		"plantuml.exportIncludeFolderHeirarchy": false,
+		"java.debug.settings.onBuildFailureProceed": true
 	}
 }
