@@ -1,9 +1,13 @@
 @startuml sequence
 ' 作者写一本书
 
-Actor author
-Participant Book
+Participant Client
+Participant Singleton
 
-author -> Book: write()
+Client -> Singleton: getInstance()
+activate Singleton
+Singleton -> Singleton : new Singleton()
+Singleton --> Client : return Singleton
+deactivate
 
 @enduml
