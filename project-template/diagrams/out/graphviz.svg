@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61pt" height="177pt" viewBox="0.00 0.00 60.99 176.8">
+<g id="graph0" class="graph" transform="translate(9.736852867647487,161.75939084817378) scale(0.7259791399519473)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-172.8 56.99,-172.8 56.99,4 -4,4"/>
+<!-- Client -->
+<g id="node1" class="node" pointer-events="visible" data-name="Client">
+
+<ellipse fill="darkslategray" stroke="black" stroke-width="0" cx="45.99" cy="-151" rx="7" ry="7"/>
+<text text-anchor="middle" x="27.99" y="-160.7" font-family="Times,serif" font-size="9.00">Client</text>
+</g>
+<!-- Interface -->
+<!-- Interface -->
+<g id="node2" class="node" pointer-events="visible" data-name="Interface">
+
+<ellipse fill="#b0e2ff" stroke="black" stroke-width="0" cx="45.99" cy="-79" rx="7" ry="7"/>
+<text text-anchor="middle" x="45.99" y="-76.3" font-family="Times,serif" font-size="9.00">I</text>
+<text text-anchor="middle" x="23" y="-88.7" font-family="Times,serif" font-size="9.00">Interface</text>
+</g>
+<!-- Implement -->
+
+<g id="node3" class="node" pointer-events="visible" data-name="Implement">
+
+<ellipse fill="#9ac0cd" stroke="black" stroke-width="0" cx="45.99" cy="-7" rx="7" ry="7"/>
+<text text-anchor="middle" x="45.99" y="-4.3" font-family="Times,serif" font-size="9.00">C</text>
+<text text-anchor="middle" x="19.49" y="-16.7" font-family="Times,serif" font-size="9.00">Implement</text>
+</g><g id="edge1" class="edge" data-name="Client-&gt;Interface" data-comment="Implement">
+
+<path fill="none" stroke="slategray" d="M45.99,-144.1C45.99,-132.99 45.99,-110.86 45.99,-95.51" stroke-dasharray="5,2"/>
+<polygon fill="slategray" stroke="slategray" points="45.99,-85.78 50.49,-95.78 45.99,-90.78 45.99,-95.78 45.99,-95.78 45.99,-95.78 45.99,-90.78 41.49,-95.78 45.99,-85.78 45.99,-85.78"/>
+</g>
+<!-- I -->
+<g id="edge2" class="edge" data-name="Implement-&gt;Interface" data-comment="I">
+
+<path fill="none" stroke="slategray" d="M45.99,-13.9C45.99,-24.68 45.99,-45.86 45.99,-61.13" stroke-dasharray="5,2"/>
+<polygon fill="none" stroke="slategray" points="42.49,-60.71 45.99,-70.71 49.49,-60.71 42.49,-60.71"/>
+</g>
+</g>
+</svg>

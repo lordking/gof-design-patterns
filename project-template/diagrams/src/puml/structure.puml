@@ -1,0 +1,16 @@
+@startuml structure
+' 作者写一本书
+
+class Author {
+    + write()
+}
+
+class Book {
+    + title
+    + author
+    + content
+}
+
+Author --> Book : write()
+
+@enduml
